@@ -18,6 +18,9 @@ class _MyAppState extends State<MyApp> {
       appBar: AppBar(
         title: Text("Counter Cubit"),
       ),
+      body: Container(
+        child: Text("Center"),
+      ),
     );
   }
 }
