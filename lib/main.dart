@@ -20,6 +20,7 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     Repo().getData();
+    print("init state");
     super.initState();
   }
 
